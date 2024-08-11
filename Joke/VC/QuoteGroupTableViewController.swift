@@ -20,6 +20,10 @@ class QuoteGroupTableViewController: UITableViewController {
         super.viewDidLoad()
 
     }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        refresh()
+    }
 
     // MARK: - Table view data source
 
